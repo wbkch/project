@@ -1,0 +1,95 @@
+/* navbar */
+
+#navbar{
+    /* border: 2px solid black; */
+    
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   align-content: center;
+   
+}
+
+
+
+#logo img{
+    width: 50px;
+    height: 50px;
+  
+    
+}
+
+#navbar ul{
+    padding-bottom: 10px;
+}
+
+#navbar ul li{
+    font-size: .7rem;
+}
+
+#navbar ul li a{
+    
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px 5px;
+    border: 3px solid white;
+}
+
+/* home */
+
+
+#home::before{
+    
+    height: 50%;
+   
+}
+
+
+.h-primary{
+    
+    font-size: 1.5rem;
+}
+
+#home p{
+    
+    padding: 10px;
+    font-size: 1rem;
+}
+
+#home .btn{
+   
+    padding: 5px 10px;
+    margin: 20px 20px;
+    font-size: .7rem;
+    
+}
+
+
+/* services */
+.m-box{
+    display: flex;
+    flex-direction: column;
+}
+
+#m-services{
+    font-size: 2rem;
+    
+}
+
+/* contact */
+
+#clients h1{
+    font-size: 2rem;
+    
+}
+
+#clients .citem img{
+    height: 60px;
+    width: 60px;
+
+    padding: 10px  20px;
+    
+}
+
+
+/* footer */

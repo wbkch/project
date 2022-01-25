@@ -1,0 +1,244 @@
+/* CSS Reset */
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+#navbar{
+    /* border: 2px solid black; */
+    display: flex;
+    position: relative;
+    height: 130px;
+    
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: .8;
+    top: 0px;
+    left: 0px;
+}
+
+#logo{
+    margin: 1px 30px;
+}
+
+#logo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px 20px;
+    border: 2px solid black;
+}
+
+#navbar ul{
+    display: flex;
+    align-items: center;
+    
+}
+
+#navbar ul li{
+ 
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+#navbar ul li a{
+    background-color: rgb(15, 15, 15);
+    color: white;
+    text-decoration: none;
+    margin: 30px;
+    border-radius: 10px;
+    padding: 10px 30px;
+    border: 3px solid white;
+}
+
+#navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 10px 30px;
+    border: 3px solid black;
+    margin: 30px;
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    
+    
+    
+}
+
+#home::before{
+    content: "";
+    background: url(../img/bg.jpg)no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    z-index: -1;
+    opacity: .5;
+    top: 0px;
+    left: 0px;
+}
+
+
+.h-primary{
+    color:  black;
+    padding: 20px;
+    font-size: 3rem;
+}
+
+#home p{
+    color: black;
+    padding: 10px;
+    font-size: 1.3rem;
+}
+
+
+#home .btn{
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    margin: 40px 20px;
+    border-radius: 20px;
+    cursor:pointer;
+    font-size: 1rem;
+    
+}
+
+/* Services */
+
+#services{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+#m-services{
+    font-size: 3.8rem;
+    padding: 23px  ;
+    text-align: center;
+    
+}
+
+
+.m-box{
+    display: flex;
+    
+}
+
+.box{
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(185, 207, 228);
+}
+
+.box img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.h-secandary{
+    font-size: 2rem;
+    
+}
+
+/* Clients */
+
+#clients{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#clients::before{
+   content: "";
+   background: url(../img/22.jpg) no-repeat center center/cover;
+   width: 100%;
+   position: absolute;
+   height: 100%;
+   z-index: -1;
+   opacity: .6;
+
+}
+
+#clients h1{
+    font-size: 3rem;
+    
+}
+
+#clients .citem{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+#clients .citem img{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    padding: 10px  40px;
+    
+}
+
+/* contact section? */
+
+#contacts{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#contacts::before{
+    content: "";
+    position: absolute;
+    background: url('../img/contact.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: .8;
+
+     
+    
+}
+
+#contacts h1{
+
+   font-size: 3rem;
+}
+
+footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+}

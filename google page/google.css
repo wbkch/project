@@ -1,0 +1,64 @@
+*{
+  margin: 0px;
+  padding: 0px;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+.right{
+  display: flex;
+  float: right;
+  margin-top: 0px;
+  padding: 10px 10px;
+ 
+
+}
+
+.right img{
+  width: 20px;
+  height: 20px;
+  padding-left: 20px;
+}
+
+.right a{
+  color: black;
+  padding-left: 20px;
+}
+
+.searchbar{
+
+ display: block;
+ margin: 100px auto;
+}
+
+.search{
+  width: 400px;
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 5px 10px;
+  display: flex;
+  
+ 
+  
+}
+.input{
+  border: none;
+  outline: none;
+  width: 400px;
+  background: transparent;
+
+}
+
+.searchIcon{
+  width: 15px;
+  
+}
+
+.voiceIcon{
+  width: 15px;
+  margin-left: 10px;
+
+}
